@@ -15,7 +15,11 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
 
 ## 스타트업 개발자 채용
 
+
+
 ## db.json
+
+PR json 모델
 
 ```json
 {
@@ -30,15 +34,21 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
     "developers": [
       {
         "category": "BACKEND | FRONTEND | ANDROID | IOS",
-        "limit": "채용시까지 | 2021-05-21",
+        "limit": "2021-05-21",
         "minimumCareer": [
-          "ALL",
-          "NEW",
-          "1y",
-          "5y"
+          "ALL", // 상관없음
+          "NEW", // 신입
+          "YEAR_1", // 1년차 이상
+          "YEAR_5" // 5년차 이상
         ],
-        "minimumQualifications": "필수 사항 (최대 500자)",
-        "preferredQualifications": "우대 사항 (최대 500자)"
+        "minimumQualifications": [ // 최대 10개
+            "개발을 잘 하시는 분", // 각 최대 100자
+            "일을 잘 하시는 분"
+        ],
+        "preferredQualifications": [ // 최대 10개
+            "롤 티어 골드 이상", // 각 최대 100자
+            "해피해킹 사용하시는 분",
+        ]
       },
       { ... },
       { ... }
