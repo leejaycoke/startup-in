@@ -8,31 +8,7 @@
         {
             "description": "반려생활에서 React native 개발자를 모집합니다.",
             "category": "FRONTEND",
-            "limit_date": "2021-04-17",
-            "link": "https://ban-life.com/recruit",
-            "minimum_career": "ALL",
-            "minimum_qualifications": [
-                "React Native, Flutter등 크로스플랫폼 애플리케이션 개발 경험이 있으신 분",
-                "React.js(or Vue.js), Javascript(ES6), Typescript, HTML(5), CSS등을 이용한 서비스 개발 경험이 있으신 분",
-                "HTTP 통신에 대한 기본적인 이해, RESTful API 클라이언트 연동을 위한 설계, 개발 경험이 있으신 분",
-                "Git을 이용한 코드 형상관리 경험이 있으신 분",
-                "긍정적이며 프로의식을 가지고 주도적 성장이 가능하신 분",
-                "적극적이며 논리적인 커뮤니케이션을 통한 협업이 가능한 분"
-            ],
-            "preferred_qualifications": [
-                "반려인 혹은 반려동물을 사랑하시는 분",
-                "크림히어로즈, 속삭이는 몽자 채널 구독자",
-                "AWS와 같은 클라우드 환경에서 개발 경험이 있으신 분",
-                "테스트, 빌드, 배포 자동화를 고민하고 개선한 경험이 있으신 분",
-                "지속적인 발전을 위해 토이 프로젝트, 오픈소스 기여, 교육 수강 등을 하신 분",
-                "안드로이드 Native 애플리케이션 개발 경험이 있으신 분",
-                "본인이 만든 애플리케이션을 실제 서비스, 운영까지 해보신 분"
-            ]
-        },
-        {
-            "description": "반려생활에서 Android 개발자를 모집합니다.",
-            "category": "ANDROID",
-            "limit_date": "2021-06-30",
+            "limit_date": "2021-05-15",
             "link": "https://ban-life.com/recruit",
             "minimum_career": "ALL",
             "minimum_qualifications": [
