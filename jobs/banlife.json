@@ -8,7 +8,7 @@
         {
             "description": "반려생활에서 React native 개발자를 모집합니다.",
             "category": "FRONTEND",
-            "limit": "2021-04-16",
+            "limit_date": "2021-04-17",
             "link": "https://ban-life.com/recruit",
             "minimum_career": "ALL",
             "minimum_qualifications": [
@@ -32,7 +32,7 @@
         {
             "description": "반려생활에서 Android 개발자를 모집합니다.",
             "category": "ANDROID",
-            "limit": "2021-04-30",
+            "limit_date": "2021-06-30",
             "link": "https://ban-life.com/recruit",
             "minimum_career": "ALL",
             "minimum_qualifications": [

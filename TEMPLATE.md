@@ -17,9 +17,9 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
 
 {TEMPLATE}
 
-## db.json
+## ${company_name}.json
 
-PR json 모델
+jobs 폴더에 아래와 같이 json 파일을 생성하시면 됩니다.
 
 ```json
 {

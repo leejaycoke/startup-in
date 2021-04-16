@@ -28,7 +28,8 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         </td>
         <td>프론트엔트</td>
         <td>
-            2021-04-16
+            2021-04-17
+            <br />(내일마감)
             </td>
         <td>무관</td>
         <td><a href="https://ban-life.com/recruit">링크</a></td>
@@ -36,7 +37,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
     <tr>
         <td>안드로이드</td>
         <td>
-            2021-04-30
+            2021-06-30
             </td>
         <td>무관</td>
         <td><a href="https://ban-life.com/recruit">링크</a></td>
@@ -44,14 +45,14 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
     
 </table>
 
-## db.json
+## ${company_name}.json
 
-PR json 모델
+jobs 폴더에 아래와 같이 json 파일을 생성하시면 됩니다.
 
 ```json
 {
     "company": {
-        "name": "반려생활",
+        "name": "좋은회사",
         "link": "https://...", # 공식 홈페이지 주소
         "series_step": "ENUM(SEED|A|B)"
     },

@@ -12,9 +12,9 @@
         </td>
         <td>{{ job['recruits'][0]['category'] }}</td>
         <td>
-            {{ job['recruits'][0]['limit'].strftime('%Y-%m-%d') }}
-            {% if job['recruits'][0]['is_tomorrow_limit'] -%}
-            (내일마감)
+            {{ job['recruits'][0]['limit_date'].strftime('%Y-%m-%d') }}
+            {% if job['recruits'][0]['is_tomorrows_limit'] -%}
+            <br />(내일마감)
             {% endif -%}
         </td>
         <td>{{ job['recruits'][0]['minimum_career'] }}</td>
@@ -25,8 +25,8 @@
     <tr>
         <td>{{ recruit['category'] }}</td>
         <td>
-            {{ recruit['limit'].strftime('%Y-%m-%d') }}
-            {% if recruit['is_tomorrow_limit'] -%}
+            {{ recruit['limit_date'].strftime('%Y-%m-%d') }}
+            {% if recruit['is_tomorrows_limit'] -%}
             (내일마감)
             {% endif -%}
         </td>

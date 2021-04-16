@@ -63,10 +63,21 @@ def write_readme(readme):
         fp.write(readme)
 
 
+def exclude_outdated(jobs):
+    latest_jobs = []
+
+    for job in jobs:
+        recruits = [r for r in job['recruits'] if not r['is_outdated']]
+        job['recruits'] = recruits
+        latest_jobs.append(job)
+    return latest_jobs
+
+
 def run():
-    jobs = [Job().dump(j) for j in get_jobs()]
-    pprint(jobs)
-    table = create_table(jobs)
+    job_models = [Job().dump(j) for j in get_jobs()]
+    latest_jobs = exclude_outdated(job_models)
+
+    table = create_table(latest_jobs)
     readme = generate_readme(table)
     write_readme(readme)
 
