@@ -31,6 +31,12 @@ jobs:
           python-version: '3.7.8'
           architecture: 'x64'
 
+      - name: Setup Locale
+        run: |
+          export LC_ALL="ko_KR.UTF-8"
+          export LC_CTYPE="ko_KR.UTF-8"
+          sudo dpkg-reconfigure locales
+
       - name: Installation python packages
         run: pip install -r requirements.txt
 
