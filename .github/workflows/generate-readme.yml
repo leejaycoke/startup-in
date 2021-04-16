@@ -28,7 +28,11 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
         with: 
-          python-version: '3.8.5'
+          python-version: '3.7.8'
           architecture: 'x64'
 
-      - run: python ./script/run.py
+      - name: Installation python packages
+        run: pip install -r requirements.txt
+
+      - name: Generate README.md
+        run: python ./script/run.py
