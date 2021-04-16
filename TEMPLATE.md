@@ -15,35 +15,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
 
 ## 스타트업 개발자 채용
 
-<table>
-    <tr>
-        <th width="150">회사명</th>
-        <th width="120">구분</th>
-        <th width="120">마감일</th>
-        <th width="120">최소경력</th>
-        <th>링크</th>
-    </tr>
-    <tr>
-        <td rowspan="2">반려생활 (SEED)
-        </td>
-        <td>프론트엔트</td>
-        <td>
-            2021-04-17
-            <br />(내일마감)
-            </td>
-        <td>무관</td>
-        <td><a href="https://ban-life.com/recruit">링크</a></td>
-    </tr>
-    <tr>
-        <td>안드로이드</td>
-        <td>
-            2021-06-30
-            </td>
-        <td>무관</td>
-        <td><a href="https://ban-life.com/recruit">링크</a></td>
-    </tr>
-    
-</table>
+{TEMPLATE}
 
 ## ${company_name}.json
 
@@ -52,7 +24,7 @@ jobs 폴더에 아래와 같이 json 파일을 생성하시면 됩니다.
 ```json
 {
     "company": {
-        "name": "좋은회사",
+        "name": "반려생활",
         "link": "https://...", # 공식 홈페이지 주소
         "series_step": "ENUM(SEED|A|B)"
     },
