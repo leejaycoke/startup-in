@@ -42,5 +42,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: master
+          files: 'README.md'
           commit-message: updated README.md by github action
+          name: JuHyun Lee
+          email: leejaycoke@gmail.com
           rebase: true
