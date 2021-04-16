@@ -52,7 +52,7 @@ jobs 폴더에 아래와 같이 json 파일을 생성하시면 됩니다.
 ```json
 {
     "company": {
-        "name": "좋은회사",
+        "name": "반려생활",
         "link": "https://...", # 공식 홈페이지 주소
         "series_step": "ENUM(SEED|A|B)"
     },
