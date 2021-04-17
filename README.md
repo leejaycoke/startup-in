@@ -17,7 +17,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
     </tr>
     <tr>
         <td rowspan="1">반려생활</td>
-        <td rowspan="1">PRE-A</td>
+        <td rowspan="1">SEED</td>
         <td>프론트엔드</td>
         <td>
             2021-05-15
