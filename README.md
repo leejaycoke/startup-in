@@ -16,20 +16,11 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <th>링크</th>
     </tr>
     <tr>
-        <td rowspan="2">반려생활</td>
-        <td rowspan="2">PRE-A</td>
+        <td rowspan="1">반려생활</td>
+        <td rowspan="1">PRE-A</td>
         <td>프론트엔트</td>
         <td>
             2021-05-15
-            </td>
-        <td>무관</td>
-        <td><a href="https://ban-life.com/recruit">링크</a></td>
-    </tr>
-    <tr>
-        <td>프론트엔트</td>
-        <td>
-            2021-04-18
-            <br />(내일마감)
             </td>
         <td>무관</td>
         <td><a href="https://ban-life.com/recruit">링크</a></td>
