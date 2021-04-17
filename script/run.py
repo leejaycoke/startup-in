@@ -1,17 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import json
-import sys
-import locale
 
-from jinja2 import Environment, PackageLoader, select_autoescape, BaseLoader
-from os import listdir
 from pathlib import Path
-
-from model.category import Category
+from jinja2 import Environment, BaseLoader
 from model.job import Job
-from pprint import pprint
-from marshmallow import Schema, EXCLUDE
 
 PROJECT_PATH = Path(__file__).parent.parent.absolute()
 
@@ -39,8 +32,7 @@ def get_jobs():
 
 def create_template_engine():
     with open(HTML_TEMPLATE) as fp:
-        html_templte = fp.read()
-    return Environment(loader=BaseLoader).from_string(html_templte)
+        return Environment(loader=BaseLoader).from_string(fp.read())
 
 
 def create_table(jobs):

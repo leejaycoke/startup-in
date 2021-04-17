@@ -1,6 +1,7 @@
 <table>
     <tr>
         <th width="150">회사명</th>
+        <th width="120">투자단계</th>
         <th width="120">구분</th>
         <th width="120">마감일</th>
         <th width="120">최소경력</th>
@@ -8,8 +9,8 @@
     </tr>
     {% for job in jobs -%}
     <tr>
-        <td rowspan="{{job['recruits'] | length}}">{{ job['company']['name'] }} ({{ job['company']['series_step'] }})
-        </td>
+        <td rowspan="{{job['recruits'] | length}}">{{ job['company']['name'] }}</td>
+        <td rowspan="{{job['recruits'] | length}}">{{ job['company']['series_step'] }}</td>
         <td>{{ job['recruits'][0]['category'] }}</td>
         <td>
             {{ job['recruits'][0]['limit_date'].strftime('%Y-%m-%d') }}
@@ -27,7 +28,7 @@
         <td>
             {{ recruit['limit_date'].strftime('%Y-%m-%d') }}
             {% if recruit['is_tomorrows_limit'] -%}
-            (내일마감)
+            <br />(내일마감)
             {% endif -%}
         </td>
         <td>{{ recruit['minimum_career'] }}</td>

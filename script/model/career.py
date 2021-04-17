@@ -4,7 +4,6 @@ from constants.class_enum import ClassEnum
 
 
 class Career(ClassEnum):
-
     ALL = ClassEnum("무관")
     NEW = ClassEnum("신입")
     YEAR_1 = ClassEnum("1년차 이상")

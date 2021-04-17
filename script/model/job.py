@@ -3,6 +3,7 @@
 from marshmallow import Schema, fields
 from model.category import Category
 from model.career import Career
+from model.series_step import SeriesStep
 
 from datetime import date
 from datetime import datetime as dt
@@ -10,7 +11,6 @@ from datetime import timedelta
 
 
 class Recruit(Schema):
-
     description = fields.Str()
     category = fields.Function(lambda f: Category.of(f['category']).title)
     limit_date = fields.Function(
@@ -34,13 +34,11 @@ class Recruit(Schema):
 
 
 class Company(Schema):
-
     name = fields.Str()
     link = fields.Url()
-    series_step = fields.Str()
+    series_step = fields.Function(lambda c: SeriesStep.of(c['series_step']).title)
 
 
 class Job(Schema):
-
     company = fields.Nested(Company())
     recruits = fields.List(fields.Nested(Recruit()))

@@ -1,47 +1,57 @@
 ## 스타트업 개발자 채용 大 박람회
 
-(현재 준비중입니다.)
-
 Seed ~ Series B에 있는 스타트업을 위한 채용정보 페이지입니다.  
 Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니다.  
 해당 스타트업에 종사하시는 분뿐만 아니라 채용 관련 정보를 알고 계시다면 PR을 해주세요!
-
-## PR/스타트업 규칙
-
-- Seed ~ Series B 이하인 Real 스타트업만 등록이 가능합니다. (Series C 이상 도달 시 채용 공고는 자동으로 삭제 처리될 수 있습니다.)
-- [더브이씨](https://thevc.kr/SendBird)에 등록된 스타트업만 가능합니다.
-- 회사 공식 or 서비스 웹페이지가 존재해야 합니다.
-- 회사나 서비스 존재가 불확실하거나 명확하지 않은 경우, [잡플래닛](https://www.jobplanet.co.kr)에서 회사 점수가 낮다고 판단하는 경우, 가상화폐 거래, 대출, 보험, 금융 투자가 주 서비스로 확인되는 경우, 사람이 판단했을 때 이 회사는 좀 아니다 싶으면 PR이 거절될 수 있습니다.
 
 ## 스타트업 개발자 채용
 
 {TEMPLATE}
 
-## ${company_name}.json
+## 규칙
 
-jobs 폴더에 아래와 같이 json 파일을 생성하시면 됩니다.
+### 등록 가능한 스타트업 (모두 만족)
+
+- Seed ~ Series B 이하의 스타트업
+- [더브이씨](https://thevc.kr)에 등록된 스타트업
+- 회사 또는 서비스 웹페이지가 존재하는 스타트업
+
+### 등록 불가능한 스타트업
+
+- 회사나 서비스 존재가 불확실하거나 명확하지 않은 경우
+- [잡플래닛](https://www.jobplanet.co.kr)에서 회사 점수가 낮다고 판단하는 경우
+- 가상화폐 거래, 대출, 보험, 금융 투자가 주 서비스로 확인되는 경우
+- 사람이 판단했을 때 이 회사는 좀 아니다 싶은 경우
+
+## PR
+
+jobs 폴더에 아래와 같이 ${company_name}.json 파일을 생성하시면 됩니다.
+
+모든 정보를 Github에 표시하지는 않으므로 텍스트를 너무 길게 작성하실 필요는 없습니다. (별도 웹 페이지 준비중)
 
 ```json
 {
-    "company": {
-        "name": "반려생활",
-        "link": "https://...", # 공식 홈페이지 주소
-        "series_step": "ENUM(SEED|A|B)"
+  "company": {
+    "name": "반려생활",
+    "link": "https://...",
+    "series_step": "ENUM(SEED|PRE_A|A|B)"
+  },
+  "recruits": [
+    {
+      "description": "OO 개발자를 모집합니다.",
+      "category": "ENUM(FRONTEND|BACKEND|ANDROID|IOS)",
+      "limit_date": "yyyy-MM-dd",
+      "link": "https://...",
+      "minimum_career": "ENUM(ALL|NEW|YEAR_1~10)",
+      "minimum_qualifications": [
+        "요구사항"
+      ],
+      "preferred_qualifications": [
+        "우대사항"
+      ]
     },
-    "recruits": [
-        {
-            "description": "OO 개발자를 모집합니다.",
-            "category": "ENUM(FRONTEND|BACKEND|ANDROID|IOS)",
-            "limit": "yyyy-MM-dd", # 마감일
-            "link": "https://...",
-            "minimum_career": "ENUM(ALL|NEW|YEAR1~10)",
-            "minimum_qualifications": [
-                "요구사항",
-            ],
-            "preferred_qualifications": [
-                "우대사항",
-            ]
-        },
-    ]
+    {},
+    {}
+  ]
 }
 ```
