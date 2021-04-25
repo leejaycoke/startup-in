@@ -16,6 +16,16 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <th>링크</th>
     </tr>
     <tr>
+        <td rowspan="1">빅픽처인터렉티브</td>
+        <td rowspan="1">B</td>
+        <td>백엔드</td>
+        <td>
+            2021-05-31
+            </td>
+        <td>무관</td>
+        <td><a href="https://www.wanted.co.kr/wd/43089">링크</a></td>
+    </tr>
+    <tr>
         <td rowspan="1">반려생활</td>
         <td rowspan="1">SEED</td>
         <td>프론트엔드</td>
