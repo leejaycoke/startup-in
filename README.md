@@ -30,7 +30,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <td rowspan="1">SEED</td>
         <td>프론트엔드</td>
         <td>
-            2021-05-15
+            2021-06-15
             </td>
         <td>무관</td>
         <td><a href="https://ban-life.com/recruit">링크</a></td>
