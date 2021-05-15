@@ -9,17 +9,19 @@
     </tr>
     {% for job in jobs -%}
     <tr>
-        <td rowspan="{{job['recruits'] | length}}">{{ job['company']['name'] }}</td>
+        <td rowspan="{{job['recruits'] | length}}">
+            <a href="{{job['company']['link']}}" target="_blank">{{ job['company']['name'] }}</a>
+        </td>
         <td rowspan="{{job['recruits'] | length}}">{{ job['company']['series_step'] }}</td>
         <td>{{ job['recruits'][0]['category'] }}</td>
         <td>
             {{ job['recruits'][0]['limit_date'].strftime('%Y-%m-%d') }}
             {% if job['recruits'][0]['is_tomorrows_limit'] -%}
-            <br />(내일마감)
+            <br/>(내일마감)
             {% endif -%}
         </td>
         <td>{{ job['recruits'][0]['minimum_career'] }}</td>
-        <td><a href="{{ job['recruits'][0]['link'] }}">링크</a></td>
+        <td><a href="{{ job['recruits'][0]['link'] }}" target="_blank">링크</a></td>
     </tr>
     {% if job['recruits'] | length > 1 -%}
     {% for recruit in job['recruits'][1:] -%}
@@ -28,7 +30,7 @@
         <td>
             {{ recruit['limit_date'].strftime('%Y-%m-%d') }}
             {% if recruit['is_tomorrows_limit'] -%}
-            <br />(내일마감)
+            <br/>(내일마감)
             {% endif -%}
         </td>
         <td>{{ recruit['minimum_career'] }}</td>
