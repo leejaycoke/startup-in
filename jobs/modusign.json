@@ -1,0 +1,35 @@
+{
+  "company": {
+    "name": "모두사인",
+    "link": "https://modusign.co.kr",
+    "series_step": "B"
+  },
+  "recruits": [
+    {
+      "description": "모두사인 백엔드 엔지니어",
+      "category": "BACKEND",
+      "limit_date": "2021-06-15",
+      "link": "https://www.notion.so/975a991feaa44450bfb29c3832091c24",
+      "minimum_career": "ALL",
+      "minimum_qualifications": [
+        "한 가지 이상의 언어를 능숙하게 다루실 수 있는 분",
+        "RESTful API 개발 경험 3년 이상",
+        "RDBMS 경험 (SQL, 동시성 제어, 인덱싱)",
+        "AWS, GCP, Azure와 같은 클라우드 서비스 사용 경험",
+        "TDD의 관점을 이해하고, 경험이 있으신 분",
+        "다른 직무의 팀원과 적극적으로 대화할 수 있는 의사소통 태도와 능력",
+        "해외여행 결격사유가 없는 분",
+        "병역필 또는 면제자"
+      ],
+      "preferred_qualifications": [
+        "Typescript에 익숙하고 nestjs 사용 경험이 있으신 분",
+        "DDD (Domain Driven Design)에 경험이 있거나, 관심이 있는 분",
+        "마이크로서비스 아키텍처에 관심이 있거나 운영 경험이 있는 분",
+        "Sharding/Partitioning 지원 되는 DB 운영 경험이 있는 분",
+        "컨테이너 환경의 개발 및 서비스 운영 경험이 있으신 분",
+        "Terraform을 사용하여 IaC 관리 및 운영 경험이 있으신 분",
+        "비즈니스 영역에 관심과 욕심이 많은 분"
+      ]
+    }
+  ]
+}
