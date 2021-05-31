@@ -47,7 +47,6 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <td>백엔드</td>
         <td>
             2021-05-31
-            <br/>(내일마감)
             </td>
         <td>무관</td>
         <td><a href="https://www.wanted.co.kr/wd/43089" target="_blank">링크</a></td>
