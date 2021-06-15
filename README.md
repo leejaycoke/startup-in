@@ -27,7 +27,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <td>무관</td>
         <td><a href="https://ban-life.com/recruit" target="_blank">링크</a></td>
     </tr>
-    <tr>
+        <tr>
         <td rowspan="1">
             <a href="https://modusign.co.kr" target="_blank">모두사인</a>
         </td>
@@ -39,20 +39,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <td>무관</td>
         <td><a href="https://www.notion.so/975a991feaa44450bfb29c3832091c24" target="_blank">링크</a></td>
     </tr>
-    <tr>
-        <td rowspan="1">
-            <a href="https://lvup.gg" target="_blank">빅픽처인터렉티브</a>
-        </td>
-        <td rowspan="1">B</td>
-        <td>백엔드</td>
-        <td>
-            2021-05-31
-            </td>
-        <td>무관</td>
-        <td><a href="https://www.wanted.co.kr/wd/43089" target="_blank">링크</a></td>
-    </tr>
-    
-</table>
+        </table>
 
 ## 규칙
 
