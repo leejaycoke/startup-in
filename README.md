@@ -15,31 +15,7 @@ Back-end, Frontend, Mobile 등 개발자를 대상으로 진행하고 있습니�
         <th width="120">최소경력</th>
         <th>링크</th>
     </tr>
-    <tr>
-        <td rowspan="1">
-            <a href="https://ban-life.com" target="_blank">반려생활</a>
-        </td>
-        <td rowspan="1">SEED</td>
-        <td>프론트엔드</td>
-        <td>
-            2021-06-15
-            </td>
-        <td>무관</td>
-        <td><a href="https://ban-life.com/recruit" target="_blank">링크</a></td>
-    </tr>
-        <tr>
-        <td rowspan="1">
-            <a href="https://modusign.co.kr" target="_blank">모두사인</a>
-        </td>
-        <td rowspan="1">B</td>
-        <td>백엔드</td>
-        <td>
-            2021-06-15
-            </td>
-        <td>무관</td>
-        <td><a href="https://www.notion.so/975a991feaa44450bfb29c3832091c24" target="_blank">링크</a></td>
-    </tr>
-        </table>
+    </table>
 
 ## 규칙
 
